@@ -11,7 +11,7 @@ header{
     width: 100%;
     height: 40px;
     background-color: black;
-    /* line-height: 40px; */
+    line-height: 40px;
     top: 2rem;
 }
 .nav ul li{
@@ -34,6 +34,7 @@ ul li a{
 .left_div{
     width: 68%;
     float: left;
+    padding-right: 10px;
 }
 .im{
     float: left;
@@ -46,12 +47,18 @@ ul li a{
 .right_div{
     position: sticky;
     top: 10px;
+   
+    
 }
 .right_div img{
     display: inline-block;
     width: 200px;
     margin-bottom: 5px;
 
+}
+p{
+    text-align: justify;
+   
 }
 
 
